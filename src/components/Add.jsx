@@ -30,7 +30,7 @@ const UserBox = styled(Box)({
 })
 
 const Add = () => {
-  const [open, setOpen] = useState(true)
+  const [open, setOpen] = useState(false)
   return (
     <Box>
       <Tooltip onClick={() => setOpen(true)} title="Delete" sx={{ backgroundColor: 'hsl(210, 100%, 45%)', position: 'fixed', bottom: 20, left: { xs: "calc(50% - 25px)", md: 30 } }}>
